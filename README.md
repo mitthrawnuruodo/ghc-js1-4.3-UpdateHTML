@@ -43,7 +43,7 @@ a) Populate an `ul` with list items, using a template-function, the list items s
 
 > Tip: Look at the demo from this lesson.
 
-Level 2: 
+### Level 2: 
 
 a) Using JS, change the mouse pointer (cursor) to a pointer.
 
