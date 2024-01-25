@@ -24,7 +24,7 @@ b) Make a button on the page, and make an eventlistner that - when clicked - sor
 
 ## Exercise 2
 
-Given the Array of objects: 
+Given the Object with an Array of objects: 
 ```js
 const bigCats = {
     "felidae": [
@@ -45,7 +45,7 @@ a) Populate an `ul` with list items, using a template-function, the list items s
 
 ### Level 2: 
 
-a) Using JS, change the mouse pointer (cursor) to a pointer.
+a) Using JS, change the mouse pointer (cursor) to a pointer, when hovering a list item.
 
 b) Add [`data-*` attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) for name, location and url for all `<li>` items.
 
@@ -66,4 +66,18 @@ e) Can you use the `window.open()` `target` attribute to make sure any given lin
 
 ## Exercise 3
 
-TBD
+a) Use `fetch()` to get the movies from `movies.json`.
+
+> FYI: The list is from [IMDB](https://www.imdb.com/list/ls055592025/)
+
+b) Make a function to list out the movies, in an `ol` in your `index.html`, on the form: 
+
+`<li>The Godfather (1972) [Rating: 9.2] Link</li>` (let the )
+
+> Tip: Make an `h1`, too.
+
+c) In the HTML, make buttons ("Sort by Title", "Sort by Rank", "Sort by rating", "Sort by year (dec)", "Sort by year (asc)").
+
+d) Make compare functions for the different search scenarios.
+
+e) Make eventListeners for the buttons that sort the list, using the correct compare function, then re-lists it.
